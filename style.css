@@ -1,4 +1,41 @@
-body {background-color:tan;}
-h1{color:green;}
+body{
+	background-color: #121212;
+	margin: 0;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.container{
+	margin: 5vh 10vw;
+	background-color: whitesmoke;
+	border-radius: 30px;
 
+	padding: 2rem;
+	font-size: 1.4rem;
+	font-weight: 550;
+	
+}
 
+h1{
+	color:gray;
+	font-size: 4.5rem;
+}
+.calculation-container{
+	padding-left: 20vw;
+
+}
+.calculation-container div{
+	margin-top: 15px;
+	display: flex;
+}
+#compute{
+	font-size: 1.4rem;
+	font-weight: 550;
+}
+.aligned-width{
+	width: 18vw;
+	display: block;
+}
+
+p strong{
+	background-color: yellow;
+}
